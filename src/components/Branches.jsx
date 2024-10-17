@@ -28,7 +28,7 @@ function Branches() {
           {branches.map((branch, index) => (
             <div key={index} className="col-sm-12 col-md-5 col-lg-3 mx-3">
               <div className="card border-0 shadow mb-3">
-                <img className="card-img-top img-fluid rounded-0" src={branch.image} />
+                <img className="card-img-top img-fluid rounded-0" src={branch.image} alt="" />
                 <div className="card-body py-4">
                   <h4 className="card-title">{branch.title}</h4>
                   <p className="card-text"><i>Location : {branch.location}</i></p>

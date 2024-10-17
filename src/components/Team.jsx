@@ -34,7 +34,7 @@ function Team() {
       <div className='mt-3 container'>
         {TEAM_MEMBERS.map((member, index) => (
           <div key={index} className="card border-0 shadow mb-3">
-            <img className="card-img-top img-fluid rounded-0" src={member.image}/>
+            <img className="card-img-top img-fluid rounded-0" src={member.image} alt="" />
             <div className="card-body py-4">
               <h5 className="card-title fw-bold">{member.title}, {member.name}</h5>
               <p className="card-text" style={{ fontWeight: "500" }}>
