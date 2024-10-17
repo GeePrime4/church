@@ -1,6 +1,5 @@
 import React from 'react'
 import Gallery from '../components/Gallery'
-import g12 from "../img/gallery/g12.jpg";
 function Galleries() {
   return (
     <div>

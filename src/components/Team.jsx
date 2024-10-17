@@ -1,5 +1,4 @@
 import React from 'react';
-import g23 from "../img/gallery/g23.jpg";
 import mrRaji from "../img/gallery/mrRaji.jpg";
 import pastee from "../img/gallery/pastee.jpg";
 import "../index.css";

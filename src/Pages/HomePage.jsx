@@ -6,8 +6,6 @@ import Programs from '../components/Programs';
 import Gallery from '../components/Gallery';
 import BibleVerses from '../components/BibleVerses';
 import Branches from '../components/Branches';
-import Pages from '../components/Pages';
-import Footer from '../components/Footer';
 function HomePage() {
     return (
         <div>
